@@ -37,3 +37,52 @@ iframe#tela {
     width: 85.5%;
     height: 75%;
 }
+
+section#redes {
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    height: 90vh;
+    width: 6.5vw;
+}
+
+section#redes > a > img {
+    position: absolute;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.508);
+}
+
+section#redes > a > img:hover {
+    transform: translate(2px, 2px);
+    border: 2px solid white;
+    transition: transform 0.2s;
+}
+
+img#home {
+    top: 0px;
+}
+
+img#facebook {
+    top: 60px;
+}
+
+img#twitter {
+    top: 120px;
+}
+
+img#github {
+    top: 180px;
+}
+
+img#instagram {
+    top: 240px;
+}
+
+img#youtube {
+    top: 300px;
+}
+
+
